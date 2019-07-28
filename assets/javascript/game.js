@@ -5,7 +5,7 @@ $(document).ready(function() {
 	// random computer variable array
 	var rand = [];
 
-	for (var r = 20; r < 124; r++) {
+	for (var r = 11; r < 111; r++) {
 		rand.push(r);
 	}
 
@@ -17,9 +17,8 @@ $(document).ready(function() {
 		crystals.push(c);
 	}
 
-	// console.log(crystals);
 
-	// ******* GLOBAL VARIABLES *******
+	// * GLOBAL VARIABLES *
 
 	// random variables selected by computer
 	var randNumber; // number to match
@@ -31,7 +30,6 @@ $(document).ready(function() {
 	var c4;
 
   	var totalScore = 0; // user's score
-
 	var wins = 0;
 	var losses = 0;
 
@@ -49,7 +47,6 @@ $(document).ready(function() {
 	} // END of pickRandomNumber function
 
 	// pick random numbers for crystals
-
 	function pickRandomCrystals(arr) {
 
 		for (var y = 0; y < 4; y++){
